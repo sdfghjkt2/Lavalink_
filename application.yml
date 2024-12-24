@@ -1,0 +1,21 @@
+server:
+  # Lavalink will listen on this port
+  port: 2333
+
+# Set a password to connect to Lavalink (must match in bot's Lavalink connection setup)
+lavalink:
+  password: "nevergiveup"  # Change this password!
+
+# Redis configuration (optional, required if you plan to use Redis for connection management)
+redis:
+  host: "localhost"  # Replace with Redis host, e.g., Redis service URL
+  port: 3404
+  password: "STORM_ARISES_HERE"  # Replace with your Redis password, if applicable
+  database: 0  # Redis database number (default is 0)
+
+# Optional: Lavalink’s logging configuration
+logging:
+  level: info
+  file:
+    enabled: true
+    path: "logs/lavalink.log"
